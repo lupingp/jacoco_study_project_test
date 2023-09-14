@@ -1,11 +1,15 @@
 package com.example.study.project.studyproject.controller;
 
+import com.example.study.project.studyproject.entity.UserEntity;
+import com.example.study.project.studyproject.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -13,12 +17,12 @@ import java.util.Map;
 @RequestMapping("/user/")
 public class UserController {
 
-    @GetMapping("queryUser/")
-    public Map<String,String> queryUserAll(){
-        HashMap<String,String> hashMap = new HashMap<>();
-        hashMap.put("name","陆平");
-        hashMap.put("age","25");
-        log.info("【queryUserAll】【查询用户全部姓名】【结果】：【{}】",hashMap);
-        return hashMap;
+    @Autowired
+    private UserService userService;
+
+    @GetMapping("queryUserAll/")
+    public List<UserEntity> queryUserAll() {
+        log.info("【查询全部用户信息】：【{}】", userService.queryUsers());
+        return userService.queryUsers();
     }
 }

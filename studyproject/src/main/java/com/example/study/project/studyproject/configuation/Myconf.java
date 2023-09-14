@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 public class Myconf {
 
     private String var1;
-
     private String var2;
 
     @Override
