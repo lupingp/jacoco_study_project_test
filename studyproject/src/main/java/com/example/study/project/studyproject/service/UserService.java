@@ -17,4 +17,6 @@ public interface UserService {
      * @return
      */
     List<UserEntity> queryUsers();
+
+    List<UserEntity> queryUsers01();
 }

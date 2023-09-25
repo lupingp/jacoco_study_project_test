@@ -21,4 +21,15 @@ public class UserServiceImpl implements UserService {
         list.add(new UserEntity(5,"张三5","男","20"));
         return list;
     }
+
+    @Override
+    public List<UserEntity> queryUsers01() {
+        List<UserEntity> list = new ArrayList<>();
+        list.add(new UserEntity(1,"张三1","男","20"));
+        list.add(new UserEntity(2,"张三2","男","20"));
+        list.add(new UserEntity(3,"张三3","男","20"));
+        list.add(new UserEntity(4,"张三4","男","20"));
+        list.add(new UserEntity(5,"张三5","男","20"));
+        return list;
+    }
 }

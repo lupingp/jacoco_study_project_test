@@ -25,4 +25,10 @@ public class UserController {
         log.info("【查询全部用户信息】：【{}】", userService.queryUsers());
         return userService.queryUsers();
     }
+
+    @GetMapping("queryUserAll01/")
+    public List<UserEntity> queryUserAll01() {
+        log.info("【查询全部用户信息】：【{}】", userService.queryUsers());
+        return userService.queryUsers01();
+    }
 }
