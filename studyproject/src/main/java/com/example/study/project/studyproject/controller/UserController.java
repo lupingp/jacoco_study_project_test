@@ -20,7 +20,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("queryUserAll/")
+    @GetMapping("queryUserAlls/")
     public List<UserEntity> queryUserAll() {
         log.info("【查询全部用户信息】：【{}】", userService.queryUsers());
         return userService.queryUsers();
