@@ -2,14 +2,18 @@ package com.example.study.project.studyproject.service.serviceImpl;
 
 import com.example.study.project.studyproject.entity.UserEntity;
 import com.example.study.project.studyproject.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 /**
  * @author luping
  * @date 2023/9/15 00:11
  */
+@Service
 public class UserServiceImpl implements UserService {
     @Override
     public List<UserEntity> queryUsers() {

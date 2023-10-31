@@ -3,21 +3,19 @@ package com.example.study.project.studyproject.controller;
 import com.example.study.project.studyproject.entity.UserEntity;
 import com.example.study.project.studyproject.service.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
+import javax.annotation.Resource;
 import java.util.List;
-import java.util.Map;
 
 @Slf4j
 @RestController
 @RequestMapping("/user/")
 public class UserController {
 
-    @Autowired
+    @Resource
     private UserService userService;
 
     @GetMapping("queryUserAlls/")
@@ -32,7 +30,7 @@ public class UserController {
         return userService.queryUsers01();
     }
 
-    @GetMapping("queryUserAll01/")
+    @GetMapping("queryUserAll02/")
     public List<UserEntity> queryUserAll02() {
         log.info("【查询全部用户信息】：【{}】", userService.queryUsers02());
         return userService.queryUsers01();
