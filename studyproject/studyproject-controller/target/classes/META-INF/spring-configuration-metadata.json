@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "env102",
+      "type": "com.example.studyprojectcontroller.configuation.Myconf",
+      "sourceType": "com.example.studyprojectcontroller.configuation.Myconf"
+    }
+  ],
+  "properties": [
+    {
+      "name": "env102.var1",
+      "type": "java.lang.String",
+      "sourceType": "com.example.studyprojectcontroller.configuation.Myconf"
+    },
+    {
+      "name": "env102.var2",
+      "type": "java.lang.String",
+      "sourceType": "com.example.studyprojectcontroller.configuation.Myconf"
+    }
+  ],
+  "hints": []
+}

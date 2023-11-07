@@ -13,17 +13,20 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>studyproject</name>
     <description>studyproject</description>
+    <!--  打包依赖  -->
+    <packaging>pom</packaging>
+    <!-- 多模块列表   -->
+    <modules>
+        <module>studyproject-controller</module>
+        <module>studyproject-service</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     </properties>
-    <!--    <modules>-->
-    <!--        <module>my-project</module>-->
-    <!--        <module>another-project</module>-->
-    <!--        <module>third-project/pom-example.xml</module>-->
-    <!--    </modules>-->
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -47,16 +50,6 @@
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>org.eclipse.jgit</groupId>-->
-        <!--            <artifactId>org.eclipse.jgit</artifactId>-->
-        <!--            <version>4.9.0.201710071750-r</version>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.eclipse.jgit</groupId>-->
-        <!--            <artifactId>org.eclipse.jgit</artifactId>-->
-        <!--            <version>5.13.1.202206130422-r</version>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -109,18 +102,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

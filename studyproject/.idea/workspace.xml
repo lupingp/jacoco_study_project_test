@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="541bb433-10f8-483d-b9d1-83b7015e0f8b" name="Changes" comment="调整逻辑">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/StudyprojectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/StudyprojectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/Myconf.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/Myconf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/PropertySourcesConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/PropertySourcesConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/PropertySourcesConf2.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/PropertySourcesConf2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/YamlPropertySourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/YamlPropertySourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-service/src/main/java/com/example/studyprojectservice/userService/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/service/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-service/src/main/java/com/example/studyprojectservice/userService/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyBlockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyBlockThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyFileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyGit.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyGit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyHttpClent.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyHttpClent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyJsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyJsoup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyNetWorkInteface.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyNetWorkInteface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyProcessBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyProcessBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudySystemPerties.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudySystemPerties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyTestYield.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyTestYield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyThreadPoolExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyThreadPoolExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/TestInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/TestInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/xiaofu.properties" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/properties/xiaofu.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/xiaofu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/properties/xiaofu.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/project/studyproject/StudyprojectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/project/studyproject/commontest/EnvironmentTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/VM.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/src.zip!/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/src.zip!/java/util/Properties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar!/META-INF/maven/plugin.xml" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r-sources.jar!/org/eclipse/jgit/api/Git.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r-sources.jar!/org/eclipse/jgit/api/RemoteAddCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r-sources.jar!/org/eclipse/jgit/api/RemoteRemoveCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r-sources.jar!/org/eclipse/jgit/revwalk/RevWalk.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2-sources.jar!/org/jsoup/Jsoup.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2-sources.jar!/org/jsoup/nodes/Element.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2-sources.jar!/org/jsoup/parser/Parser.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2-sources.jar!/org/jsoup/select/Elements.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.7/spring-context-5.3.7-sources.jar!/org/springframework/context/annotation/PropertySource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/SpringProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/io/support/DefaultPropertySourceFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/io/support/EncodedResource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/io/support/PropertiesLoaderUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/io/support/PropertySourceFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/core/io/support/ResourcePropertySource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/util/DefaultPropertiesPersister.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar!/org/springframework/util/PropertiesPersister.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/it/apache-maven-3.9.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2S4JDzcXmii3vW8iEC13FbJN34E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/newtest02",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/luping/code/jacocoStudyProjectTest/studyproject/studyproject-service/src/main/java/com/example/studyprojectservice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "508b0e9386e7979ee84b53535a205cac",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyproject-service/src/main/java/com/example/studyprojectservice" />
+      <recent name="$PROJECT_DIR$/studyproject-controller/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyproject-controller/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.studyprojectcontroller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StudyprojectApplication">
+    <configuration name="StudyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyHttpClient" />
+      <module name="studyproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyJsoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyJsoup" />
+      <module name="studyproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTestYield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyTestYield" />
+      <module name="studyproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyThread" />
+      <module name="studyproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.Test" />
+      <module name="studyproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyprojectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+      <module name="studyproject-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.studyprojectcontroller.StudyprojectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyprojectControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="studyproject-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.studyprojectcontroller.StudyprojectControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyprojectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="studyproject-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.studyprojectservice.StudyprojectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StudyThread" />
+        <item itemvalue="Application.StudyTestYield" />
+        <item itemvalue="Application.StudyJsoup" />
+        <item itemvalue="Application.StudyHttpClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="541bb433-10f8-483d-b9d1-83b7015e0f8b" name="Changes" comment="" />
+      <created>1688399806872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688399806872</updated>
+      <workItem from="1688399807970" duration="903000" />
+      <workItem from="1688482198451" duration="428000" />
+      <workItem from="1688482631347" duration="940000" />
+      <workItem from="1688483580117" duration="2563000" />
+      <workItem from="1688486154272" duration="27000" />
+      <workItem from="1688486187671" duration="8059000" />
+      <workItem from="1688572274280" duration="8451000" />
+      <workItem from="1689171182365" duration="727000" />
+      <workItem from="1689869576100" duration="86309000" />
+      <workItem from="1692194351639" duration="11475000" />
+      <workItem from="1692440270752" duration="43687000" />
+      <workItem from="1694254767200" duration="598000" />
+      <workItem from="1694707451650" duration="8609000" />
+      <workItem from="1695736506725" duration="15566000" />
+      <workItem from="1696776317870" duration="3450000" />
+      <workItem from="1696864277333" duration="2325000" />
+      <workItem from="1697032766863" duration="1319000" />
+      <workItem from="1697560688876" duration="725000" />
+      <workItem from="1697650835382" duration="2053000" />
+      <workItem from="1698765961104" duration="4858000" />
+      <workItem from="1699367521942" duration="3704000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加queryUserAll01">
+      <created>1695655952959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695655952959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加queryUserAll03">
+      <created>1695745789661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695745789661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加maven打包">
+      <created>1696787397090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696787397090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加maven打包">
+      <created>1696788115119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696788115119</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加maven打包">
+      <created>1696867339598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696867339598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加maven打包">
+      <created>1696867472916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696867472916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加maven打包">
+      <created>1697036983851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697036983851</updated>
+    </task>
+    <task id="LOCAL-00008" summary="调整逻辑">
+      <created>1698766301508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698766301508</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/newtest02" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加queryUserAll01" />
+    <MESSAGE value="增加queryUserAll03" />
+    <MESSAGE value="增加maven打包" />
+    <MESSAGE value="调整逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整逻辑" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.eclipse.jgit.api.errors.TransportException" package="org.eclipse.jgit.api.errors" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.BindException" package="java.net" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
