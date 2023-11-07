@@ -1,7 +1,7 @@
 package com.example.studyprojectcontroller.controller;
 
 import com.example.studyprojectservice.entity.UserEntity;
-import com.example.studyprojectservice.userService.UserService;
+import com.example.studyprojectservice.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

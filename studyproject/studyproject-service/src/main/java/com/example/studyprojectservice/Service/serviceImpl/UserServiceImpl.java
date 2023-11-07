@@ -1,7 +1,7 @@
-package com.example.studyprojectservice.userService.serviceImpl;
+package com.example.studyprojectservice.Service.serviceImpl;
 
 import com.example.studyprojectservice.entity.UserEntity;
-import com.example.studyprojectservice.userService.UserService;
+import com.example.studyprojectservice.Service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

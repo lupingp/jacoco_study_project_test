@@ -1,4 +1,4 @@
-package com.example.studyprojectservice.userService;
+package com.example.studyprojectservice.Service;
 
 import com.example.studyprojectservice.entity.UserEntity;
 
