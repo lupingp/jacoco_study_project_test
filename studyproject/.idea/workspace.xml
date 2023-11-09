@@ -4,48 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="541bb433-10f8-483d-b9d1-83b7015e0f8b" name="Changes" comment="调整逻辑">
+    <list default="true" id="541bb433-10f8-483d-b9d1-83b7015e0f8b" name="Changes" comment="将项目改成多module">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/StudyprojectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/StudyprojectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/Myconf.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/Myconf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/PropertySourcesConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/PropertySourcesConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/PropertySourcesConf2.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/PropertySourcesConf2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/configuation/YamlPropertySourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/configuation/YamlPropertySourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-service/src/main/java/com/example/studyprojectservice/userService/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/service/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-service/src/main/java/com/example/studyprojectservice/userService/serviceImpl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyBlockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyBlockThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyFileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyGit.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyGit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyHttpClent.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyHttpClent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyJsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyJsoup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyNetWorkInteface.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyNetWorkInteface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyProcessBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyProcessBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudySystemPerties.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudySystemPerties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyTestYield.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyTestYield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyThreadPoolExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyThreadPoolExecute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/StudyWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/project/studyproject/study/TestInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/TestInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/xiaofu.properties" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/properties/xiaofu.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/xiaofu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/resources/properties/xiaofu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/project/studyproject/StudyprojectApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/project/studyproject/commontest/EnvironmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyJsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject-controller/src/main/java/com/example/studyprojectcontroller/study/StudyJsoup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/StudyprojectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/configuation/Myconf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/configuation/PropertySourcesConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/configuation/PropertySourcesConf2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/configuation/YamlPropertySourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/controller/StudyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyBlockThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyFileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyGit$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyGit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyHttpClent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyJsoup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyNetWorkInteface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser$FunctionCallVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser$IntegerLiteralModifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser$MethodNameCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser$MethodNamePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyProcessBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyReflect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudySystemPerties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyTestYield$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyTestYield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyThreadPoolExecute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/StudyWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/com/example/studyprojectcontroller/study/TestInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/properties/xiaofu.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-controller/target/classes/properties/xiaofu.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/Service/StudyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/Service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/Service/serviceImpl/StudyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/Service/serviceImpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/entity/StudyEmtity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/entity/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/userService/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject-service/target/classes/com/example/studyprojectservice/userService/serviceImpl/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +88,31 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/newtest02" />
+                    <option name="lastUsedInstant" value="1699373762" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1699373719" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/VM.class" root0="SKIP_INSPECTION" />
@@ -119,6 +165,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature/newtest02",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -149,20 +196,7 @@
       <recent name="com.example.studyprojectcontroller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyprojectApplication">
-    <configuration name="StudyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyHttpClient" />
-      <module name="studyproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.study.project.studyproject.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.example.studyprojectcontroller.study.StudyJsoup">
     <configuration name="StudyJsoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.study.project.studyproject.study.StudyJsoup" />
       <module name="studyproject" />
@@ -215,10 +249,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.studyprojectcontroller.study.StudyJsoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.studyprojectcontroller.study.StudyJsoup" />
+      <module name="studyproject-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyprojectcontroller.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyprojectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <module name="studyproject-controller" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.studyprojectcontroller.StudyprojectApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:$USER_HOME$/jacocoJar/org.jacoco.agent-0.8.5-runtime.jar=includes=*,output=tcpserver,address=*,port=18513" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.studyprojectcontroller.study.StudyJsoup" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StudyThread" />
         <item itemvalue="Application.StudyTestYield" />
         <item itemvalue="Application.StudyJsoup" />
-        <item itemvalue="Application.StudyHttpClient" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +326,7 @@
       <workItem from="1697560688876" duration="725000" />
       <workItem from="1697650835382" duration="2053000" />
       <workItem from="1698765961104" duration="4858000" />
-      <workItem from="1699367521942" duration="3704000" />
+      <workItem from="1699367521942" duration="12297000" />
     </task>
     <task id="LOCAL-00001" summary="增加queryUserAll01">
       <created>1695655952959</created>
@@ -336,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698766301508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="将项目改成多module">
+      <created>1699373685737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699373685737</updated>
+    </task>
+    <task id="LOCAL-00010" summary="将项目改成多module">
+      <created>1699375267264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699375267264</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +432,8 @@
     <MESSAGE value="增加queryUserAll03" />
     <MESSAGE value="增加maven打包" />
     <MESSAGE value="调整逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整逻辑" />
+    <MESSAGE value="将项目改成多module" />
+    <option name="LAST_COMMIT_MESSAGE" value="将项目改成多module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
