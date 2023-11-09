@@ -73,7 +73,7 @@ public class StudyJsoup {
             System.out.println("------------");
             System.out.println(index.getElementsByTag("tfoot").first().child(0).child(1).attr("class"));
             System.out.println("------------");
-            System.out.println(index.getElementsByTag("tfoot").first());
+            System.out.println(element.first().getElementsByTag("tfoot").first());
 //            System.out.println(parse);
         } catch (Exception ex) {
             ex.printStackTrace();
