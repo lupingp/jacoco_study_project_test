@@ -35,7 +35,7 @@ public class StudyServiceImpl implements StudyService {
     public List<StudyEmtity> studyByQuery01(String name, Integer age) {
         log.info("【查询学习人的入参：{}--{}】",name,age);
         if ("学习小子".equals(name) && age == 18){
-            log.info("【返回数据的内容是：{}】",studyEmtityList);
+            log.info("【返回的数据包含：{}】",studyEmtityList);
             return studyEmtityList;
         }
         if ("学习小子01".equals(name)){
